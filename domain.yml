@@ -1,0 +1,31 @@
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - mood_great
+  - mood_unhappy
+  - bot_challenge
+  - BooksByAuthor
+  - AuthorByBook
+
+actions:
+  - action_books_by_author
+  - action_author_by_book
+  - action_fallback
+
+entities:
+  - book
+  - author
+
+slots:
+  book:
+    type: text
+
+  author:
+    type: text
+
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
