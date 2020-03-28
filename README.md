@@ -26,7 +26,7 @@ likely to add more data and more complex table structure in future
 - git clone https://github.com/sociopath00/BookBot
 
 - Install the requirements
-    `pip install requirements.txt`
+    `pip install -r requirements.txt`
     
     Note: I would recommend creating a new environment.
     
